@@ -1,16 +1,97 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>HTML Element Classification</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .element-pair {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            display: block;
+        }
+        .answer {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Button -->
+    <div class="element-pair">
+        <button data-ns-test="block-inline-button">Test1</button>
+        <button data-ns-test="block-inline-button">Test2</button>
+    </div>
+    <div class="answer">Answer: Inline</div>
 
+    <!-- Div -->
+    <div class="element-pair">
+        <div data-ns-test="block-inline-div">Test1</div>
+        <div data-ns-test="block-inline-div">Test2</div>
+    </div>
+    <div class="answer">Answer: Block</div>
+
+    <!-- Span -->
+    <div class="element-pair">
+        <span data-ns-test="block-inline-span">Test1</span>
+        <span data-ns-test="block-inline-span">Test2</span>
+    </div>
+    <div class="answer">Answer: Inline</div>
+
+    <!-- P -->
+    <div class="element-pair">
+        <p data-ns-test="block-inline-p">Test1</p>
+        <p data-ns-test="block-inline-p">Test2</p>
+    </div>
+    <div class="answer">Answer: Block</div>
+
+    <!-- Input -->
+    <div class="element-pair">
+        <input data-ns-test="block-inline-input" value="Test1">
+        <input data-ns-test="block-inline-input" value="Test2">
+    </div>
+    <div class="answer">Answer: Inline</div>
+
+    <!-- Cite -->
+    <div class="element-pair">
+        <cite data-ns-test="block-inline-cite">Test1</cite>
+        <cite data-ns-test="block-inline-cite">Test2</cite>
+    </div>
+    <div class="answer">Answer: Inline</div>
+
+    <!-- Code -->
+    <div class="element-pair">
+        <code data-ns-test="block-inline-code">Test1</code>
+        <code data-ns-test="block-inline-code">Test2</code>
+    </div>
+    <div class="answer">Answer: Inline</div>
+
+    <!-- H1 -->
+    <div class="element-pair">
+        <h1 data-ns-test="block-inline-h1">Test1</h1>
+        <h1 data-ns-test="block-inline-h1">Test2</h1>
+    </div>
+    <div class="answer">Answer: Block</div>
+
+    <!-- Sup -->
+    <div class="element-pair">
+        <sup data-ns-test="block-inline-sup">Test1</sup>
+        <sup data-ns-test="block-inline-sup">Test2</sup>
+    </div>
+    <div class="answer">Answer: Inline</div>
+
+    <!-- Sub -->
+    <div class="element-pair">
+        <sub data-ns-test="block-inline-sub">Test1</sub>
+        <sub data-ns-test="block-inline-sub">Test2</sub>
+    </div>
+    <div class="answer">Answer: Inline</div>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
